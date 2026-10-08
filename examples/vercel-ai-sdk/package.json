@@ -1,0 +1,19 @@
+{
+  "name": "idevice-vercel-ai-sdk-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx agent.ts",
+    "check": "tsx agent.ts --check"
+  },
+  "dependencies": {
+    "@ai-sdk/mcp": "^2.0.71",
+    "@ai-sdk/openai": "^4.0.89",
+    "ai": "^7.0.133",
+    "zod": "^4.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.20.0"
+  }
+}

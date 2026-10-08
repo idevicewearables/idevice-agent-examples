@@ -1,0 +1,2 @@
+langchain[mcp,openai]>=1.4,<2
+langgraph>=1.2,<2
